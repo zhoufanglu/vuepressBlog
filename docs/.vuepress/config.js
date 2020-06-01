@@ -2,7 +2,7 @@ const nav = require("./nav.js"); // 引入刚刚生成的文件
 module.exports = {
   title: 'lufangzhou的代码日记',
   description: 'hexo之后的技术blog',
-  base: '/vuepressTest/',
+  base: '/vuepressBlog/',
   head: [
     ['link',{rel:'icon',href:'/img/favicon.ico'}]
   ],
