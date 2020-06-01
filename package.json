@@ -1,0 +1,13 @@
+{
+  "name": "lfz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress-plugin-auto-sidebar": "^1.4.1"
+  }
+}
