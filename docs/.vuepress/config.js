@@ -27,7 +27,7 @@ module.exports = {
   },
   themeConfig: {
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
-    lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
+    lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
     algolia: {
       apiKey: '<API_KEY>',
@@ -40,8 +40,7 @@ module.exports = {
         text: '语言',
         items: [
           { text: 'javascript', link: '/javascript/'},
-          { text: '框架', link: '/框架/'},
-          { text: 'example', link: '/exampleMenu1/'},
+          { text: '框架', link: '/框架/vue-seo.md/'},
         ],
       },
       {

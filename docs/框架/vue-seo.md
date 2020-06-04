@@ -133,4 +133,7 @@ dist
 * 如果目录内是这样的解构说明成功了
 
 ## seo查询工具
-* [地址](https://www.sojson.com/seocheck/)
+* [地址](https://www.sojson.com/seocheck/) 
+
+## 参考
+* [参考](https://www.jianshu.com/p/6a4c0b281e7f)
