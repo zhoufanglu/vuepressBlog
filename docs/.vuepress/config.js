@@ -21,7 +21,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        //'@imgSrc': path.resolve('./public/img')
+        '@imgSrc': 'docs/.vuepress/public/img'
       }
     }
   },

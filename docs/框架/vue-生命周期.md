@@ -1,8 +1,7 @@
 ---
-autoGroup-框架: 生命周期
-title: 生命周期-vue
+autoGroup-vue: vue
+title: 生命周期
 ---
-
 ## 父子组件生命周期
 ```html
 <div class="father">
