@@ -4,20 +4,36 @@ module.exports = {
   description: 'hexo之后的技术blog',
   base: '/vuepressBlog/',
   head: [
-    ['link',{rel:'icon',href:'/img/favicon.ico'}]
+    ['link', {rel: 'icon', href: '/img/favicon.ico'}]
   ],
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
-  plugins: {
-    "vuepress-plugin-auto-sidebar": {
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // 不要忘了安装 moment
+          // moment 时间格式化文档戳这里 http://momentjs.cn/
+          const moment = require('moment')
+          moment.locale(lang)
+          return moment(timestamp).fromNow()
+        }
+      }
+    ],
+    ["vuepress-plugin-auto-sidebar", {
       nav: true, //自动生成顶部nav  这里没用
       collapsable: true,
       titleMap: {
-        "exampleSubMenu1": "🎉 Hello Vuepress 🎉",
+        "vue": "🎉 Hello Vupe 🎉",
       }
-    }
-  },
+    },],
+    ["vuepress-plugin-live2d", { //z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
+      "modelName": "shizuku", //https://huaji8.top/post/live2d-plugin-2.0/
+      "mobileShow": false
+    },]
+  ],
   configureWebpack: {
     resolve: {
       alias: {
@@ -35,20 +51,21 @@ module.exports = {
     },
     //nav,
     nav: [
-      { text: '首页', link: '/' },
+      {text: '首页', link: '/'},
       {
         text: '语言',
         items: [
-          { text: 'javascript', link: '/javascript/'},
-          { text: '框架', link: '/框架/vue-seo.md/'},
+          {text: 'javascript', link: '/javascript/'},
+          {text: 'css', link: '/css/'},
+          {text: '框架', link: '/框架/vue-seo.md'},
         ],
       },
       {
         text: '个人主页',
         items: [
-          { text: '掘金', link: 'https://juejin.im/user/5afd39c36fb9a07ac162a318' },
-          { text: 'GitHub', link: 'https://github.com/zhoufanglu'},
-          { text: 'hexo', link: 'https://zhoufanglu.github.io/'},
+          {text: '掘金', link: 'https://juejin.im/user/5afd39c36fb9a07ac162a318'},
+          {text: 'GitHub', link: 'https://github.com/zhoufanglu'},
+          {text: 'hexo', link: 'https://zhoufanglu.github.io/'},
         ]
       },
     ],

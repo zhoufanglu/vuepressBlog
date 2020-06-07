@@ -14,4 +14,9 @@ title: tog
 ::: tip 快速链接
 *  [javascript](/javascript/) <!-- 跳转到 foo 文件夹的 index.html --> 
 *  [框架](/框架/) 
+:::  
+  
+::: tip 为什么使用vuepress
+*  原本的`hexo`性能比较差。
+*  印象笔记对`markdown`支持不太友好。
 :::

@@ -8,6 +8,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress-plugin-auto-sidebar": "^1.4.1"
+    "moment": "^2.26.0",
+    "vuepress-plugin-auto-sidebar": "^1.4.1",
+    "vuepress-plugin-live2d": "0.0.7"
   }
 }
