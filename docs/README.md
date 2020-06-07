@@ -12,7 +12,7 @@ title: tog
 ::: 
 
 ::: tip 快速链接
-*  [javascript](/javascript/) <!-- 跳转到 foo 文件夹的 index.html --> 
+*  [javascript](/语言/) <!-- 跳转到 foo 文件夹的 index.html --> 
 *  [框架](/框架/) 
 :::  
   

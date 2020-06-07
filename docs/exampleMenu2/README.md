@@ -1,0 +1,3 @@
+---
+title: exampleMenu2
+---

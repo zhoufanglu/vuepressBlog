@@ -22,17 +22,21 @@ module.exports = {
         }
       }
     ],
+    //https://shanyuhai123.github.io/vuepress-plugin-auto-sidebar/features/plugin-options.html
     ["vuepress-plugin-auto-sidebar", {
       nav: true, //自动生成顶部nav  这里没用
       collapsable: true,
-      titleMap: {
-        "vue": "🎉 Hello Vupe 🎉",
+      sort: 'asc',
+      titleMap: {//标题映射
+        "框架": "🎉 框架 🎉",
+        "语言": "🎉 语言🎉 ",
+        "javascript": "🎉 javascript🎉 ",
       }
     },],
-    ["vuepress-plugin-live2d", { //z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
+    /*["vuepress-plugin-live2d", { //z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
       "modelName": "shizuku", //https://huaji8.top/post/live2d-plugin-2.0/
       "mobileShow": false
-    },]
+    },]*/
   ],
   configureWebpack: {
     resolve: {
@@ -55,9 +59,8 @@ module.exports = {
       {
         text: '语言',
         items: [
-          {text: 'javascript', link: '/javascript/'},
-          {text: 'css', link: '/css/'},
-          {text: '框架', link: '/框架/vue-seo.md'},
+          {text: '语言', link: '/语言/'},
+          {text: '框架', link: '/框架/'},
         ],
       },
       {

@@ -1,4 +1,5 @@
 ---
+autoGroup-javascript: javascript  
 title: array方法
 ---
 
