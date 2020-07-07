@@ -8,7 +8,6 @@ title: tog
 ::: tip tog
 * 记录平凡的代码人生。
 * 做难事必有所得。
-* 一将无能累死三军。
 ::: 
 
 ::: tip 快速链接
@@ -16,7 +15,9 @@ title: tog
 *  [框架](/框架/) 
 :::  
   
+<!-- 
 ::: tip 为什么使用vuepress
-*  原本的`hexo`性能比较差。
+*  原本的`hexo`性能比较差。http://uyi2.com:8000/pic/movie/webplan.pdf
 *  印象笔记对`markdown`支持不太友好。
 :::
+-->

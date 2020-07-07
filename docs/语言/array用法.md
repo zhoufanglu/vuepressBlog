@@ -241,5 +241,17 @@ arr.reduce((prev,cur,index,arr)=>{
 //1       1   2
 //2       3   3
 //3       6   4
-//4       10  5
+//4       10  5  
+```  
+
+* 引入modules下的文件
+```js
+const modules = modulesFiles.keys().reduce((modules, modulePath) => {
+  // 忽略第1个js
+  const moduleName = modulePath.replace(/^\.\/(.*)\.\w+$/, '$1')
+  // 执行modulesFiles函数，返回一个对象{default: {// 文件内容}, _esModule: true}
+  const value = modulesFiles(modulePath)
+  modules[moduleName] = value.default
+  return modules
+}, {})
 ```

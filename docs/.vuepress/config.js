@@ -33,6 +33,18 @@ module.exports = {
         "javascript": "🎉 javascript🎉 ",
       }
     },],
+    [
+      'vuepress-plugin-rss',
+      {
+        base_url: '/', // required
+        site_url: 'https://an9wer.github.io/blog.html', // required
+        copyright: '2018 Young Tailors', // optional
+        // filter some post
+        filter: (frontmatter) => { return true },
+        // How much articles
+        count: 20
+      }
+    ]
     /*["vuepress-plugin-live2d", { //z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
       "modelName": "shizuku", //https://huaji8.top/post/live2d-plugin-2.0/
       "mobileShow": false
@@ -61,6 +73,7 @@ module.exports = {
         items: [
           {text: '语言', link: '/语言/'},
           {text: '框架', link: '/框架/'},
+          {text: 'hexo迁移', link: '/hexo迁移/'},
         ],
       },
       {
