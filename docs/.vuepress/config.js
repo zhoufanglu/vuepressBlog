@@ -69,11 +69,12 @@ module.exports = {
     nav: [
       {text: '首页', link: '/'},
       {
-        text: '语言',
+        text: '笔记',
         items: [
           {text: '语言', link: '/语言/'},
           {text: '框架', link: '/框架/'},
           {text: 'hexo迁移', link: '/hexo迁移/'},
+          {text: '随笔', link: '/随笔/'},
         ],
       },
       {
