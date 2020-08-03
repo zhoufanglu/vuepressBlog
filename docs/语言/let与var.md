@@ -37,3 +37,14 @@ title: let与var
     }
     test()
 ```
+* 闭包解决`settimeout`
+```js
+for(var i=0;i<3;i++){
+  (function foo() {
+    var j = i
+    setTimeout(()=>{
+      console.log(j)
+    },1000)
+  })()
+}
+```
