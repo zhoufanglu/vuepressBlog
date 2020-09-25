@@ -10,6 +10,7 @@
   "devDependencies": {
     "@vuepress/core": "^1.5.4",
     "moment": "^2.26.0",
+    "vilike": "^0.1.0",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-plugin-live2d": "0.0.7",
     "vuepress-plugin-rss": "^2.0.0"
