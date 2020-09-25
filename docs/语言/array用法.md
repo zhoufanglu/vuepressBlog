@@ -1,7 +1,9 @@
 ---
 autoGroup-javascript: javascript  
 title: array方法
----
+--- 
+<Meta/>  
+
 
 ## 以下为Array的方法
 ![](https://user-gold-cdn.xitu.io/2019/11/13/16e6439e5e5b6860?w=304&h=609&f=png&s=47911)

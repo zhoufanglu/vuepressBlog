@@ -1,7 +1,9 @@
 ---
 autoGroup-javascript: javascript  
 title: let与var
---- 
+---  
+<Meta/>  
+
 ## var&let与闭包  
 * var
 ```js

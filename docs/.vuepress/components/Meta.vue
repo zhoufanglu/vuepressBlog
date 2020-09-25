@@ -1,5 +1,6 @@
 <template>
   <div class="meta" id="global-Vilikes">
+    <span class="title">{{title}}</span>
     <span>阅读次数：{{ visitNum }}</span>
   </div>
 </template>
@@ -10,10 +11,12 @@ export default {
   name: 'Meta',
   data() {
     return {
-      visitNum: 0
+      visitNum: 0,
+      title: ''
     }
   },
   mounted() {
+    this.title = this.$page.frontmatter.title
     ViLike.get(this.$page.path, (visit, like, islike) => {
       // 访问量
       this.visitNum = visit
@@ -52,5 +55,13 @@ export default {
 <style>
 .meta {
   font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  /*border-bottom: dashed 1px #dddddd;*/
+  color: #999999;
+}
+.title{
+
 }
 </style>

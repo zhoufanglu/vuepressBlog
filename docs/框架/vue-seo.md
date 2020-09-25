@@ -1,7 +1,10 @@
 ---
 autoGroup-vue: vue
 title: seo
----
+--- 
+
+<Meta/>  
+
 ## SEO(Search Engine Optimization)
 * 搜索引擎优化，更容易搜索到该页面。
 

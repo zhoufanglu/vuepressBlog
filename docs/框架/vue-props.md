@@ -1,7 +1,10 @@
 ---
 autoGroup-vue: vue  
 title: 组件之props
---- 
+---  
+
+<Meta/>  
+
 ## 基本用法  
 ```js
 props: ['params1', 'params2']

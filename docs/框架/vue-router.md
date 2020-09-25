@@ -1,7 +1,10 @@
 ---
 autoGroup-vue: vue  
 title: 路由模式
---- 
+---  
+
+<Meta/>  
+
 
 [参考](https://juejin.im/post/5ceedf8ff265da1b80202841)  
 [官方文档](https://router.vuejs.org/zh/guide/essentials/history-mode.html)  
