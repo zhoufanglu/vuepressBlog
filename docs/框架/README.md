@@ -1,10 +1,10 @@
 ---
 title: react笔记  
 autoGroup-react: react  
----  
-
-<Meta/> 
-
+--- 
+ 
+<Meta/>  
+ 
 # 全家桶
 jsx->js对象->dom
 ![dom.png](../.vuepress/public/img/react-dom.png)

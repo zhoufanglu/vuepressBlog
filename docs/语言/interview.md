@@ -1,10 +1,10 @@
 ---
 autoGroup-javascript: javascript  
 title: interview
----  
+--- 
+ 
 <Meta/>  
-
-
+ 
 ## 1、数据类型
 * 基本数据类型,Undefined、Null、Boolean、Number、String、Symbol（es6新增，表示独一无二的值）和BigInt（es10新增）
 * 引用 Object(function, Array, Date)

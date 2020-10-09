@@ -5,7 +5,7 @@ module.exports = {
   base: '/vuepressBlog/',
   head: [
     ['link', {rel: 'icon', href: '/img/favicon.ico'}],
-    ['script', {type: 'text/javascript', src: 'https://cdn.jsdelivr.net/gh/bmob/hydrogen-js-sdk@2.2.3/dist/Bmob-2.2.3.min.js'}]
+    /*['script', {type: 'text/javascript', src: 'https://cdn.jsdelivr.net/gh/bmob/hydrogen-js-sdk@2.2.3/dist/Bmob-2.2.3.min.js'}]*/
   ],
   markdown: {
     lineNumbers: true // 代码块显示行号
@@ -35,6 +35,7 @@ module.exports = {
         "随笔": "🎉 随笔🎉 ",
       }
     },],
+    ['@vuepress/back-to-top'],
     [
       'vuepress-plugin-rss',
       {

@@ -1,4 +1,5 @@
-import Vilike from 'vilike'
+import ViLike from 'vilike'
+import Bmob from "hydrogen-js-sdk/dist/Bmob-2.2.4.min";
 // 使用异步函数也是可以的
 export default ({
                   Vue, // VuePress 正在使用的 Vue 构造函数

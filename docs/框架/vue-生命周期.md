@@ -1,9 +1,10 @@
 ---
 autoGroup-vue: vue
 title: 生命周期
---- 
+---
+ 
 <Meta/>  
-
+ 
 ## 父子组件生命周期
 ```html
 <div class="father">
