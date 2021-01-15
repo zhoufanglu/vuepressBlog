@@ -1,6 +1,9 @@
 ---
 autoGroup-vue: vue
 title: vue-一些技巧
+categories: 框架
+date: 2020-09-14
+tags: [vue]
 ---
  
 <Meta/>  

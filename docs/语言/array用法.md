@@ -1,6 +1,9 @@
 ---
 autoGroup-javascript: javascript  
 title: array方法
+date: 2020-06-01
+categories: 语言
+tags: [javascript]
 ---
  
 <Meta/>  

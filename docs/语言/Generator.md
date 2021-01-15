@@ -1,6 +1,8 @@
 ---
 title: Generator & async & await
 autoGroup-javascript: javascript  
+categories: 语言
+tags: [javascript]
 ---
  
 <Meta/>  

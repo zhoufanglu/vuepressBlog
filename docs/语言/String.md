@@ -1,6 +1,8 @@
 ---
 autoGroup-javascript: javascript  
 title: String
+categories: 语言
+tags: [javascript]
 --- 
  
 <Meta/>  

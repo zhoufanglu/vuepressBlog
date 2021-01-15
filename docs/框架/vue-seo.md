@@ -1,6 +1,9 @@
 ---
 autoGroup-vue: vue
 title: seo
+categories: 框架
+date: 2020-06-04
+tags: [vue]
 ---
 ## SEO(Search Engine Optimization)
 * 搜索引擎优化，更容易搜索到该页面。

@@ -5,17 +5,22 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "serve": "vuepress dev docs --temp .temp"
+    "serve": "vuepress dev docs --temp .temp",
+    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/core": "^1.5.4",
     "hydrogen-js-sdk": "^2.2.4",
     "moment": "^2.26.0",
+    "nodemon": "^2.0.7",
     "vilike": "^0.1.0",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-plugin-live2d": "0.0.7",
     "vuepress-plugin-rss": "^2.0.0",
-    "watchpack": "^1.6.1"
+    "vuepress-theme-reco": "^1.6.1"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
   }
 }

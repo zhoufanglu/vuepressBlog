@@ -1,8 +1,9 @@
 const nav = require("./nav.js"); // 引入刚刚生成的文件
 module.exports = {
-  title: 'lufangzhou的代码日记',
-  description: 'hexo之后的技术blog',
+  title: 'test',
+  description: '记录平凡的代码人生',
   base: '/vuepressBlog/',
+  theme: 'reco',
   head: [
     ['link', {rel: 'icon', href: '/img/favicon.ico'}],
     /*['script', {type: 'text/javascript', src: 'https://cdn.jsdelivr.net/gh/bmob/hydrogen-js-sdk@2.2.3/dist/Bmob-2.2.3.min.js'}]*/
@@ -62,6 +63,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    type: 'blog',
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
@@ -90,7 +92,32 @@ module.exports = {
           {text: 'hexo', link: 'https://zhoufanglu.github.io/'},
         ]
       },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
     ],
+    // 博客配置
+    blogConfig: {
+      category: {
+        location: 2,     // 在导航栏菜单中所占的位置，默认2
+        text: '分类' // 默认文案 “分类”
+      },
+      tag: {
+        location: 3,     // 在导航栏菜单中所占的位置，默认3
+        text: '标签'      // 默认文案 “标签”
+      },
+    },
+    /**********************评论功能***********************/
+    valineConfig: {
+      appId: 'jLNreXM5OXluMGHeuoPSCQAa-gzGzoHsz',// your appId
+      appKey: 'YM83RgrLTH5ukEzLbseTjNL5', // your appKey
+      showComment: true
+    },
+    vssueConfig: {
+      platform: 'github',
+      owner: 'OWNER_OF_REPO',
+      repo: 'NAME_OF_REPO',
+      clientId: 'YOUR_CLIENT_ID',
+      clientSecret: 'YOUR_CLIENT_SECRET',
+    }
     /*sidebar: {
       '/code/': [
         ['/code/javascript/对象操作.md', '对象操作'],

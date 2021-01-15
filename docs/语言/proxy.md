@@ -1,6 +1,8 @@
 ---
 autoGroup-javascript: javascript  
 title: proxy
+categories: 语言
+tags: [javascript]
 --- 
  
 <Meta/>  

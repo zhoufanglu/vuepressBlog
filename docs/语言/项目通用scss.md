@@ -1,6 +1,8 @@
 ---
 autoGroup-css: css  
 title: '项目通用scss'
+categories: 语言
+tags: [css]
 --- 
  
 <Meta/>  

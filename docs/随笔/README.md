@@ -1,5 +1,7 @@
 ---
 title: say a little
+categories: 随笔
+tags: [随笔]
 ---   
  
 <Meta/>  

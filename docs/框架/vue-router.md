@@ -1,6 +1,8 @@
 ---
 autoGroup-vue: vue  
 title: 路由模式
+categories: 框架
+tags: [vue]
 --- 
  
 <Meta/>  

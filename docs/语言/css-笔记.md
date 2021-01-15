@@ -1,6 +1,8 @@
 ---
 autoGroup-css: css  
 title: 'css开发笔记'
+categories: 语言
+tags: [css]
 --- 
  
 <Meta/>  
