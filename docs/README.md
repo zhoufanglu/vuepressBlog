@@ -1,8 +1,7 @@
 ---
 title: tog  
 isShowComments: false  
-home: true  
-<!--头像配置-->
+home: true
 heroImage: /img/headimg.jpg
 heroImageStyle: {
     maxHeight: '200px',

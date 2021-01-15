@@ -2,7 +2,7 @@
 title: 'mpvue-entry'
 date: 2019-07-30 17:24:01
 categories: javascript
-tags: [vue]
+tags: [vue,小程序]
 ---
 
 <meta name="referrer" content="no-referrer" />

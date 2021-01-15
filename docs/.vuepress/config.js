@@ -1,6 +1,6 @@
 const nav = require("./nav.js"); // 引入刚刚生成的文件
 module.exports = {
-  title: 'test',
+  title: 'lufangzhou',
   description: '记录平凡的代码人生',
   base: '/vuepressBlog/',
   theme: 'reco',
@@ -64,6 +64,7 @@ module.exports = {
   },
   themeConfig: {
     type: 'blog',
+    authorAvatar: '/img/headimg.jpg',
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
@@ -117,7 +118,21 @@ module.exports = {
       repo: 'NAME_OF_REPO',
       clientId: 'YOUR_CLIENT_ID',
       clientSecret: 'YOUR_CLIENT_SECRET',
-    }
+    },
+    friendLink: [
+      {
+        title: 'an9wer',
+        desc: '第一家公司同事',
+        //logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://an9wer.github.io/blog.html'
+      },
+      {
+        title: 'wanger',
+        desc: '第一家公司同事',
+        //email: 'recoluan@qq.com',
+        link: 'https://wangyulue.com/'
+      },
+    ]
     /*sidebar: {
       '/code/': [
         ['/code/javascript/对象操作.md', '对象操作'],

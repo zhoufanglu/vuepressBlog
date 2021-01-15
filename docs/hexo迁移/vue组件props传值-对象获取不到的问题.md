@@ -1,8 +1,8 @@
 ---
 title: 'vue组件props传值,对象获取不到的问题'
 date: 2019-06-05 18:47:34
-tags: [Vue]
-categories: Vue
+tags: [vue]
+categories: 框架
 ---
 
 <meta name="referrer" content="no-referrer" />

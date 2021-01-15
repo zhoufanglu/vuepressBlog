@@ -1,7 +1,7 @@
 ---
 title: Vue中数组赋值问题
 date: 2019-02-15 09:58:17
-tags: [Vue]
+tags: [vue]
 categories: Vue
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: vue中引入高德
-tags:
-  - vue
+categories: 框架
+tags: [vue]
 date: 2020-03-26 09:52:50
 ---
 

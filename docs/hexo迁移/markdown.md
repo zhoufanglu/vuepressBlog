@@ -1,7 +1,7 @@
 ---
 title: markdown
 date: 2019-01-07 11:21:33
-tags: [markdown常用语法]
+tags: [markdown]
 categories: markdown
 ---
 
