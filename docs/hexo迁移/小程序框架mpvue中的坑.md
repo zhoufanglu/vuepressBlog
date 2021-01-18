@@ -1,8 +1,8 @@
 ---
 title: '小程序框架mpvue中的坑'
 date: 2019-07-12 16:29:37
-categories: javascript
-tags: [mpvue, vant]
+categories: 框架
+tags: [mpvue, vant, vue]
 ---
 
 <meta name="referrer" content="no-referrer" />

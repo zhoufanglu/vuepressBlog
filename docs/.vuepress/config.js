@@ -65,6 +65,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     authorAvatar: '/img/headimg.jpg',
+    logo: '/img/headimg.jpg',
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
@@ -122,13 +123,14 @@ module.exports = {
     friendLink: [
       {
         title: 'an9wer',
-        desc: '第一家公司同事',
-        //logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        desc: '之前ATA同事',
+        logo: "/img/headImg/wuXinRun.png",
         link: 'https://an9wer.github.io/blog.html'
       },
       {
         title: 'wanger',
-        desc: '第一家公司同事',
+        desc: '之前ATA同事',
+        logo: "/img/headImg/wangYuLue.png",
         //email: 'recoluan@qq.com',
         link: 'https://wangyulue.com/'
       },

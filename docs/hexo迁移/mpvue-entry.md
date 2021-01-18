@@ -1,7 +1,7 @@
 ---
 title: 'mpvue-entry'
 date: 2019-07-30 17:24:01
-categories: javascript
+categories: 框架
 tags: [vue,小程序]
 ---
 

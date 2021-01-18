@@ -1,7 +1,8 @@
 ---
 title: charts
----  
- 
+categories: 随笔  
+tags: [charts]
+---
 <Meta/>  
 
 ## pieCharts

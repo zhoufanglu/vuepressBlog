@@ -2,9 +2,8 @@
 layout: photo
 title: hexo
 date: 2019-01-07 10:15:27
-categories: hexo
-tags: [vue,github]
-photos: ../../public/img/小丑壁纸1080.jpg
+categories: 其它
+tags: [hexo,github]
 ---
 
 <meta name="referrer" content="no-referrer" />

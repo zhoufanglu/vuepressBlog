@@ -1,6 +1,6 @@
 ---
 title: 'vue的computed,filters,watch'
-categories: javascript
+categories: 框架
 tags: [vue]
 date: 2019-11-04 18:39:13
 ---

@@ -1,8 +1,8 @@
 ---
 title: markdown
 date: 2019-01-07 11:21:33
-tags: [markdown]
-categories: markdown
+tags: markdown
+categories: 其它
 ---
 
 <meta name="referrer" content="no-referrer" />

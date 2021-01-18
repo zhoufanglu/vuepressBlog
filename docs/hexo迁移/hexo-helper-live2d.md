@@ -1,7 +1,7 @@
 ---
 title: 'hexo-helper-live2d(左下角二次元的实现)'
 date: 2019-04-29 15:01:57
-categories: hexo
+categories: 其它
 tags: [hexo]
 ---
 

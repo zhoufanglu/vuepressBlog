@@ -15,3 +15,26 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 平凡的人做着平凡的事。
+
+## categories 与 tags 
+ 
+###  1、md中用法
+```js
+title: '断网处理'  
+date: 2019-04-25
+categories: 语言  
+tags: [vue, axios] //多个以数组呈现
+```
+
+### categories
+* 随笔
+* 语言
+* 阅读
+* 框架
+* 其它
+* 打包
+
+### tags
+* hexo, vue,github, markdown, 小程序,npm,webpack,cookie,
+storage indexedDB javascript, mpvue, vant, axios,css,
+  react 

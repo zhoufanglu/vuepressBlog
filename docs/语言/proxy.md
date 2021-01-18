@@ -2,7 +2,7 @@
 autoGroup-javascript: javascript  
 title: proxy
 categories: 语言
-tags: [javascript]
+tags: [javascript, proxy]
 --- 
  
 <Meta/>  

@@ -2,7 +2,7 @@
 title: 'webpack基础学习'
 date: 2019-01-22 13:49:59
 tags: [webpack]
-categories: webpack
+categories: 打包
 ---
 
 <meta name="referrer" content="no-referrer" />

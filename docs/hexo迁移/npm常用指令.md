@@ -1,7 +1,7 @@
 ---
 title: 'npm常用指令'
 date: 2019-04-02 13:50:49
-categories: npm
+categories: 语言
 tags: [npm]
 ---
 #### npm （Node Package Manager）包管理工具---增删改查

@@ -1,7 +1,7 @@
 ---
 title: '浅谈v-slot'
 date: 2019-04-12 10:53:17
-categories: javascript
+categories: 框架
 tags: [vue]
 ---
 
