@@ -38,6 +38,9 @@ module.exports = {
       }
     },],
     ['@vuepress/back-to-top'],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
     [
       'vuepress-plugin-rss',
       {
@@ -69,10 +72,10 @@ module.exports = {
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
-    algolia: {
+    /*algolia: {
       apiKey: '<API_KEY>',
       indexName: '<INDEX_NAME>'
-    },
+    },*/
     //nav,
     nav: [
       {text: '首页', link: '/'},

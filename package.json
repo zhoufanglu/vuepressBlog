@@ -15,6 +15,7 @@
     "moment": "^2.26.0",
     "nodemon": "^2.0.7",
     "vilike": "^0.1.0",
+    "vuepress": "^1.8.0",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-plugin-live2d": "0.0.7",
     "vuepress-plugin-rss": "^2.0.0",
@@ -22,5 +23,8 @@
   },
   "resolutions": {
     "watchpack": "1.6.1"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "^1.8.0"
   }
 }
