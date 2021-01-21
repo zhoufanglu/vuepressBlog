@@ -2,7 +2,8 @@
 title: tog  
 isShowComments: false  
 home: true
-heroImage: /img/headimg.jpg
+# heroImage: /img/headimg.jpg
+bgImage: /img/bg.jpg
 heroImageStyle: {
     maxHeight: '200px',
     display: block,

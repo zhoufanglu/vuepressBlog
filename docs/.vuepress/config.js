@@ -25,7 +25,7 @@ module.exports = {
       }
     ],
     //https://shanyuhai123.github.io/vuepress-plugin-auto-sidebar/features/plugin-options.html
-    ["vuepress-plugin-auto-sidebar", {
+    /*["vuepress-plugin-auto-sidebar", {
       nav: true, //自动生成顶部nav  这里没用
       collapsable: true,
       sort: 'asc',
@@ -36,12 +36,52 @@ module.exports = {
         "javascript": "🎉 javascript🎉 ",
         "随笔": "🎉 随笔🎉 ",
       }
-    },],
+    },],*/
     ['@vuepress/back-to-top'],
     ['@vuepress/search', {
-      searchMaxSuggestions: 10
+      searchMaxSuggestions: 5
+    }],
+    //彩带
+    ["ribbon-animation", {
+      size: 90,   // 默认数据
+      opacity: 0.3,  //  透明度
+      zIndex: -1,   //  层级
+      opt: {
+        // 色带HSL饱和度
+        colorSaturation: "80%",
+        // 色带HSL亮度量
+        colorBrightness: "60%",
+        // 带状颜色不透明度
+        colorAlpha: 0.65,
+        // 在HSL颜色空间中循环显示颜色的速度有多快
+        colorCycleSpeed: 6,
+        // 从哪一侧开始Y轴 (top|min, middle|center, bottom|max, random)
+        verticalPosition: "center",
+        // 到达屏幕另一侧的速度有多快
+        horizontalSpeed: 200,
+        // 在任何给定时间，屏幕上会保留多少条带
+        ribbonCount: 2,
+        // 添加笔划以及色带填充颜色
+        strokeSize: 0,
+        // 通过页面滚动上的因子垂直移动色带
+        parallaxAmount: -0.5,
+        // 随着时间的推移，为每个功能区添加动画效果
+        animateSections: true
+      },
+      ribbonShow: false, //  点击彩带  true显示  false为不显示
+      ribbonAnimationShow: true  // 滑动彩带
     }]
-    [
+    //樱花特效
+    /*["sakura", {
+      num: 20,  // 默认数量
+      show: true, //  是否显示
+      zIndex: -1,   // 层级
+      img: {
+        replace: false,  // false 默认图 true 换图 需要填写httpUrl地址
+        httpUrl: '...'     // 绝对路径
+      }
+    }]*/
+    /*[
       'vuepress-plugin-rss',
       {
         base_url: '/', // required
@@ -52,7 +92,7 @@ module.exports = {
         // How much articles
         count: 20
       }
-    ]
+    ]*/
     /*["vuepress-plugin-live2d", { //z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
       "modelName": "shizuku", //https://huaji8.top/post/live2d-plugin-2.0/
       "mobileShow": false
@@ -68,6 +108,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     authorAvatar: '/img/headimg.jpg',
+    mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     logo: '/img/headimg.jpg',
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
@@ -126,16 +167,18 @@ module.exports = {
     friendLink: [
       {
         title: 'an9wer',
-        desc: '之前ATA同事',
         logo: "/img/headImg/wuXinRun.png",
         link: 'https://an9wer.github.io/blog.html'
       },
       {
         title: 'wanger',
-        desc: '之前ATA同事',
         logo: "/img/headImg/wangYuLue.png",
         //email: 'recoluan@qq.com',
         link: 'https://wangyulue.com/'
+      },
+      {
+        title: '饭团也有春天',
+        link: 'http://www.zpzpup.com/blog/'
       },
     ]
     /*sidebar: {

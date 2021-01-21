@@ -1,7 +1,8 @@
 ---
 title: say a little
 categories: 随笔
-tags: [事件时间线]
+tags: [事件时间线]  
+sticky: 5
 ---   
  
 <Meta/>  
