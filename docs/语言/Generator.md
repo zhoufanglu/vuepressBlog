@@ -2,6 +2,7 @@
 title: Generator & async & await
 autoGroup-javascript: javascript  
 categories: 语言
+date: 2021-1-15
 tags: [javascript]
 ---
  
