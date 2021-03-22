@@ -2,7 +2,12 @@
   <div
       :class="classIndex"
       @click="$router.push(item.path)">
-<!--    <div class="draw"><img :src="`http://www.zpzpup.com/assets/image/gd0${imgIndex}.jpg`" alt=""></div>-->
+<!--    https://github.com/zhoufanglu/markdownPhoto/blob/master/juRen/1.jpg?raw=true-->
+    <!--动态图片 小女孩-->
+<!--    <div class="draw"><img :src="`https://github.com/zhoufanglu/markdownPhoto/blob/master/blog-img/CuteGirl0000${imgIndex}.gif?raw=true`" alt=""></div>-->
+    <!--进击的巨人-->
+<!--    <div class="draw"><img :src="require(`../docs/.vuepress/public/img/juren/${imgIndex}.jpg`)" alt=""></div>-->
+    <div class="draw"><img :src="imgIndex | imgPath" alt=""></div>
     <div style="margin-left: 2rem;">
       <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
       <div class="title">
@@ -41,6 +46,12 @@ export default {
         LCount = 0
       }
       return classList[LCount]
+    }
+  },
+  filters: {
+    imgPath(index) {
+      console.log(index)
+      return require(`../../../docs/.vuepress/public/img/juren/${index}.jpg`)
     }
   }
 }
@@ -92,7 +103,7 @@ export default {
     img{
       width:100%;
       height:100%;
-      transform: scale(1.5);
+      transform: scale(1.2);
       transition: transform 1s;
     }
   }
