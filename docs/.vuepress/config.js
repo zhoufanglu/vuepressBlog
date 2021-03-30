@@ -113,6 +113,7 @@ module.exports = {
     //sidebarDepth: 3, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: '上次更新', // 文档更新时间：每个文件git最后提交的时间
     displayAllHeaders: false, // 默认值：false 设置为true来显示所有页面的标题链接：
+    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     /*algolia: {
       apiKey: '<API_KEY>',
       indexName: '<INDEX_NAME>'
