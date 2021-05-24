@@ -65,7 +65,7 @@ export function debounce(func, wait = 50, immediate = true) {
 ```
 
 ## 节流
-
+>这里使用es5写法，方便在项目里访问第三方this
 ```javascript
 
 /**
