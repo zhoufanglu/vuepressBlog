@@ -181,6 +181,10 @@ module.exports = {
         title: '饭团也有春天',
         link: 'http://www.zpzpup.com/blog/'
       },
+      {
+        title: 'Chereby',
+        link: 'http://www.chereby.com/'
+      },
     ]
     /*sidebar: {
       '/code/': [
