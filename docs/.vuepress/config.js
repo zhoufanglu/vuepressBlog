@@ -70,6 +70,43 @@ module.exports = {
       },
       ribbonShow: false, //  点击彩带  true显示  false为不显示
       ribbonAnimationShow: true  // 滑动彩带
+    }],
+    // 代码复制弹窗插件
+    ["vuepress-plugin-nuggets-style-copy", {
+      copyText: "复制代码",
+      tip: {
+        content: "复制成功!"
+      }
+    }],
+    // 音乐插件
+    ['meting', {
+      //metingApi: "https://meting.sigure.xyz/api/music",
+      meting: {
+        // 网易
+        auto: "http://music.163.com/#/song?id=29572578",
+      },
+      // 不配置该项的话不会出现全局播放器
+      aplayer: {
+        // 吸底模式
+        fixed: true,
+        mini: true,
+        // 自动播放
+        autoplay: true,
+        // 歌曲栏折叠
+        listFolded:true,
+        // 颜色
+        theme: '#ffffff',
+        // 播放顺序为随机
+        order: 'random',
+        // 初始音量
+        volume: 0.5,
+        // 关闭歌词显示
+        lrcType: 0
+      },
+      mobile :{
+        // 手机端去掉cover图
+        cover: false,
+      }
     }]
     //樱花特效
     /*["sakura", {
@@ -192,5 +229,5 @@ module.exports = {
         ['/code/javascript/深浅拷贝.md', '深浅拷贝'],
       ]
     }*/
-  }
+  },
 }
