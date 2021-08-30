@@ -2,11 +2,11 @@
   <div
       :class="classIndex"
       @click="$router.push(item.path)">
-<!--    https://github.com/zhoufanglu/markdownPhoto/blob/master/juRen/1.jpg?raw=true-->
+    <!--    https://github.com/zhoufanglu/markdownPhoto/blob/master/juRen/1.jpg?raw=true-->
     <!--动态图片 小女孩-->
-<!--    <div class="draw"><img :src="`https://github.com/zhoufanglu/markdownPhoto/blob/master/blog-img/CuteGirl0000${imgIndex}.gif?raw=true`" alt=""></div>-->
+    <!--    <div class="draw"><img :src="`https://github.com/zhoufanglu/markdownPhoto/blob/master/blog-img/CuteGirl0000${imgIndex}.gif?raw=true`" alt=""></div>-->
     <!--进击的巨人-->
-<!--    <div class="draw"><img :src="require(`../docs/.vuepress/public/img/juren/${imgIndex}.jpg`)" alt=""></div>-->
+    <!--    <div class="draw"><img :src="require(`../docs/.vuepress/public/img/juren/${imgIndex}.jpg`)" alt=""></div>-->
     <div class="draw"><img :src="imgIndex | imgPath" alt=""></div>
     <div style="margin-left: 2rem;">
       <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
@@ -25,7 +25,7 @@
 
 <script>
 import PageInfo from './PageInfo'
-const imgList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const imgList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const classList = [['abstract-item', 'draw'], ['abstract-item', 'draw', 'meet'], ['abstract-item', 'center']]
 let count = 0
 let LCount = 0
@@ -51,7 +51,7 @@ export default {
   filters: {
     imgPath(index) {
       console.log(index)
-      return require(`../../../docs/.vuepress/public/img/juren/${index}.jpg`)
+      return require(`../../../docs/.vuepress/public/img/mishanwu/${index}.jpg`)
     }
   }
 }

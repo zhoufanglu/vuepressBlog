@@ -5,8 +5,11 @@ tags: [事件时间线]
 sticky: 5
 ---   
  
-<Meta/>     
+<Meta/>  
 
+**2021-8-30**
+> 最近发现了一个很喜欢的动画师- [米山舞](https://twitter.com/yoneyamai?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+> 哈哈，首页图片全部换成她的作品了。
 
 **2021-8-16**
 > 昨天跟小颖出去海洋公园玩了，挺不错的。疫情+下雨，人确实不多，玩的很开心。看了动物表演，希望大家保护海洋动物。

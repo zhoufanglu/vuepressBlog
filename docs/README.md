@@ -3,7 +3,8 @@ title: tog
 isShowComments: false  
 home: true
 # heroImage: /img/headimg.jpg
-bgImage: /img/bg.jpg
+#bgImage: /img/bg.jpg
+bgImage: /img/mishanwu/7.jpg
 heroImageStyle: {
     maxHeight: '200px',
     display: block,
