@@ -4,7 +4,7 @@ isShowComments: false
 home: true
 # heroImage: /img/headimg.jpg
 #bgImage: /img/bg.jpg
-bgImage: /img/mishanwu/7.jpg
+bgImage: /img/mishanwu/1.jpg
 heroImageStyle: {
     maxHeight: '200px',
     display: block,
