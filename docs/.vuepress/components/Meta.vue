@@ -1,6 +1,6 @@
 <template>
   <div class="meta" id="global-Vilikes">
-    <span>阅读次数：{{ visitNum }}</span>
+<!--    <span>阅读次数：{{ visitNum }}</span>-->
   </div>
 </template>
 
@@ -51,6 +51,7 @@ export default {
 </script>
 <style>
 .meta {
+  display: none;
   font-size: 14px;
 }
 </style>
