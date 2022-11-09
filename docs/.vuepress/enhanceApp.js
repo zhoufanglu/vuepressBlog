@@ -22,3 +22,19 @@ ViLike.configure({
 });
 // 初始化
 ViLike.init();
+/**********************Sakana***********************/
+import Sakana from 'sakana';
+
+// 创建 DOM
+const el = document.createElement('div');
+// 设定样式放置到右下角
+el.style.cssText = `position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;`;
+
+// 放到 body 里
+document.body.appendChild(el);
+
+Sakana.init({
+  el:         el,     // 启动元素 node 或 选择器
+  scale:      .5,                // 缩放倍数
+  canSwitchCharacter: true,      // 允许换角色
+});
