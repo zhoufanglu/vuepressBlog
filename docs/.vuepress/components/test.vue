@@ -15,7 +15,3 @@ export default {
   methods: {}
 }
 </script>
-<style lang="scss" scoped>
-.p-name {
-}
-</style>

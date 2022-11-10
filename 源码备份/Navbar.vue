@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <div id="sakanaElement" style="position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;"></div>
+    <div ref="sakanaElement" id="sakanaElement" style="position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;"></div>
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
     <router-link
@@ -51,11 +51,13 @@ export default {
   },
 
   mounted () {
-    Sakana.init({
-      el: document.querySelector('#sakanaElement'),     // 启动元素 node 或 选择器
-      scale: .5,                // 缩放倍数
-      canSwitchCharacter: true,      // 允许换角色
-    });
+    this.$nextTick(()=>{
+      Sakana.init({
+        el: this.$refs.sakanaElement,     // 启动元素 node 或 选择器
+        scale: .5,                // 缩放倍数
+        canSwitchCharacter: true,      // 允许换角色
+      });
+    })
     const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
     const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
     const handleLinksWrapWidth = () => {
