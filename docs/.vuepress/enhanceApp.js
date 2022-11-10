@@ -10,6 +10,33 @@ export default ({
                 }) => {
   // ...做一些其他的应用级别的优化
   Vue.use(ViLike)
+/*
+  Vue.mixin({
+    data() {
+      return {
+      }
+    },
+    mounted() {
+      /!**********************Sakana***********************!/
+      if(!document.querySelector('#sakanaElement')){
+        // 创建 DOM
+        const el = document.createElement('div');
+        el.id = 'sakanaElement'
+// 设定样式放置到右下角
+        el.style.cssText = `position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;`;
+
+// 放到 body 里
+        document.body.appendChild(el);
+
+        Sakana.init({
+          el: el,     // 启动元素 node 或 选择器
+          scale: .5,                // 缩放倍数
+          canSwitchCharacter: true,      // 允许换角色
+        });
+      }
+    },
+  });
+*/
 }
 // 请自行修改相关配置信息
 ViLike.configure({
@@ -22,19 +49,4 @@ ViLike.configure({
 });
 // 初始化
 ViLike.init();
-/**********************Sakana***********************/
-import Sakana from 'sakana';
 
-// 创建 DOM
-const el = document.createElement('div');
-// 设定样式放置到右下角
-el.style.cssText = `position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;`;
-
-// 放到 body 里
-document.body.appendChild(el);
-
-Sakana.init({
-  el:         el,     // 启动元素 node 或 选择器
-  scale:      .5,                // 缩放倍数
-  canSwitchCharacter: true,      // 允许换角色
-});

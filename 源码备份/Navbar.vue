@@ -1,32 +1,33 @@
 <template>
   <header class="navbar">
+    <div id="sakanaElement" style="position: fixed;right: 0;bottom: 0;transform-origin: 100% 100%;"></div>
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
     <router-link
-      :to="$localePath"
-      class="home-link">
+        :to="$localePath"
+        class="home-link">
       <img
-        class="logo"
-        v-if="$themeConfig.logo"
-        :src="$withBase($themeConfig.logo)"
-        :alt="$siteTitle">
+          class="logo"
+          v-if="$themeConfig.logo"
+          :src="$withBase($themeConfig.logo)"
+          :alt="$siteTitle">
       <span
-        ref="siteName"
-        class="site-name"
-        v-if="$siteTitle">{{ $siteTitle }}</span>
+          ref="siteName"
+          class="site-name"
+          v-if="$siteTitle">{{ $siteTitle }}</span>
     </router-link>
 
     <div
-      class="links"
-      :style="linksWrapMaxWidth ? {
+        class="links"
+        :style="linksWrapMaxWidth ? {
         'max-width': linksWrapMaxWidth + 'px'
       } : {}">
 
       <Mode />
       <AlgoliaSearchBox
-        v-if="isAlgoliaSearch"
-        :options="algolia"/>
-<!--      <SearchBox v-else-if="$themeConfig.search !== false && $frontmatter.search !== false"/>-->
+          v-if="isAlgoliaSearch"
+          :options="algolia"/>
+      <SearchBox v-else-if="$themeConfig.search !== false && $frontmatter.search !== false"/>
       <NavLinks class="can-hide"/>
     </div>
   </header>
@@ -38,6 +39,7 @@ import SearchBox from '@SearchBox'
 import SidebarButton from '@theme/components/SidebarButton'
 import NavLinks from '@theme/components/NavLinks'
 import Mode from '@theme/components/Mode'
+import Sakana from 'sakana'
 
 export default {
   components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox, Mode },
@@ -49,6 +51,11 @@ export default {
   },
 
   mounted () {
+    Sakana.init({
+      el: document.querySelector('#sakanaElement'),     // 启动元素 node 或 选择器
+      scale: .5,                // 缩放倍数
+      canSwitchCharacter: true,      // 允许换角色
+    });
     const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
     const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
     const handleLinksWrapWidth = () => {
@@ -56,7 +63,7 @@ export default {
         this.linksWrapMaxWidth = null
       } else {
         this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING -
-          (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
+            (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
       }
     }
     handleLinksWrapWidth()

@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/core": "^1.5.4",
+    "@vuepress/plugin-register-components": "^1.9.7",
     "hydrogen-js-sdk": "^2.2.4",
     "moment": "^2.26.0",
     "nodemon": "^2.0.7",

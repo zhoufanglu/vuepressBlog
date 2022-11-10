@@ -12,6 +12,18 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   plugins: [
+    // 全局组件
+    /*['@vuepress/register-components', {
+      // componentsDir: './components'
+/!*
+      components: [
+        {
+          name: 'p-test',
+          path: './components/test.vue'
+        }
+      ]
+*!/
+    }],*/
     [
       '@vuepress/last-updated',
       {
@@ -107,12 +119,6 @@ module.exports = {
         // 手机端去掉cover图
         cover: false,
       }
-    }],
-    // sakana
-    ['sakana', {
-      el:         '.sakana-box',     // 启动元素 node 或 选择器
-      scale:      .5,                // 缩放倍数
-      canSwitchCharacter: true,      // 允许换角色
     }],
     //樱花特效
     /*["sakura", {
