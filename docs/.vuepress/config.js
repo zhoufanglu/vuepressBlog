@@ -12,6 +12,9 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   plugins: [
+    [require('./plugins/vuepress-plugin-sakana'), {
+      scale: .5
+    }],
     // 全局组件
     /*['@vuepress/register-components', {
       // componentsDir: './components'
