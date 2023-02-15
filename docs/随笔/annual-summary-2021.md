@@ -1,7 +1,7 @@
 ---
 title: 2021年度总结
 categories: 随笔
-sticky: 1
+sticky: 100
 tags: [回忆录]
 ---  
  
