@@ -1,5 +1,4 @@
-import ViLike from 'vilike'
-import Bmob from "hydrogen-js-sdk/dist/Bmob-2.2.4.min";
+// import ViLike from 'vilike'
 // import Sakana from 'sakana';
 // 使用异步函数也是可以的
 export default ({
@@ -27,10 +26,10 @@ export default ({
       }
     }
   })*/
-  Vue.use(ViLike)
+  // Vue.use(ViLike)
 }
 // 请自行修改相关配置信息
-ViLike.configure({
+/*ViLike.configure({
   secretKey: '20a6032320a10448',
   safeKey: '761715',
   table: 'vuepress',
@@ -39,5 +38,5 @@ ViLike.configure({
   like: 'like'
 });
 // 初始化
-ViLike.init();
+ViLike.init();*/
 

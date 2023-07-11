@@ -87,12 +87,12 @@ module.exports = {
       ribbonAnimationShow: true  // 滑动彩带
     }],
     // 代码复制弹窗插件
-    ["vuepress-plugin-nuggets-style-copy", {
+    /*["vuepress-plugin-nuggets-style-copy", {
       copyText: "复制代码",
       tip: {
         content: "复制成功!"
       }
-    }],
+    }],*/
     // 音乐插件
     ['meting', {
       //metingApi: "https://meting.sigure.xyz/api/music",
