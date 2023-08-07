@@ -5,7 +5,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "serve": "vuepress dev docs --temp .temp",
+    "dev": "vuepress dev docs --temp .temp",
     "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs"
   },
   "license": "MIT",
