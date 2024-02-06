@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[79],{620:function(t,e,s){"use strict";s.r(e);var n=s(3),l=Object(n.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("Meta"),this._v(" "),e("ul",[e("li",[this._v("记录一些书籍的阅读笔记。")])])],1)}),[],!1,null,null,null);e.default=l.exports}}]);
